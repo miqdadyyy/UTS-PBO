@@ -22,6 +22,7 @@ public class Tumbuhan extends MakhlukHidup{
     
     public void fotosintesis(){
         kadarAir -= 10;
+        tumbuh(1);
         System.out.println("Tumbuhan " + nama + " melakukan fotosintesis");
     }
     
